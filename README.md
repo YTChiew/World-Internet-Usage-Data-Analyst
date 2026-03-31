@@ -6,22 +6,22 @@ This project analyzes global internet usage trends to uncover insights into digi
 As internet penetration increases, so does the need for scalable digital infrastructure such as cloud services and data centers. This project simulates real-world market research by transforming raw data into actionable insights.
 
 ## Objectives
-Analyze global internet penetration rates across countries
-Identify high-growth and underserved markets
-Explore regional disparities in digital access
-Derive insights relevant to data center and cloud infrastructure demand
+- Analyze global internet penetration rates across countries
+- Identify high-growth and underserved markets
+- Explore regional disparities in digital access
+- Derive insights relevant to data center and cloud infrastructure demand
 
 ## Tools & Technologies
-SQL → data structuring and querying
-Python (Pandas, Matplotlib) → data cleaning and analysis
-Power BI → data visualization and dashboard creation
+- SQL → data structuring and querying
+- Python (Pandas, Matplotlib) → data cleaning and analysis
+- Power BI → data visualization and dashboard creation
 
 ## Key Analysis Areas
-Market Saturation
+# Market Saturation
 Identifying countries with high internet penetration, indicating mature digital markets.
-Growth Opportunities
+# Growth Opportunities
 Highlighting regions with low internet adoption, suggesting future demand for digital infrastructure.
-Regional Comparison
+# Regional Comparison
 Comparing internet usage across regions to identify digital inequality and growth trends.
 
 ## Key Insights
