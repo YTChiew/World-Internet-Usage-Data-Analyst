@@ -40,7 +40,7 @@ Trends: Global internet adoption is increasing steadily, reflecting expansion in
 
 ---
 
-## Dashboard (Power BI) [Download Power BI Dashboard (.pbix)]()
+## Dashboard (Power BI) [Download Power BI Dashboard (world_internet_usage_analyst.pbix)](https://github.com/YTChiew/World-Internet-Usage-Data-Analyst/blob/main/world-internet-usage-analyst.pbix)
 The interactive dashboard visualizes:
 
 # World Map
