@@ -5,53 +5,60 @@ This project analyzes global internet usage trends to uncover insights into digi
 
 As internet penetration increases, so does the need for scalable digital infrastructure such as cloud services and data centers. This project simulates real-world market research by transforming raw data into actionable insights.
 
-## Objectives
-- Analyze global internet penetration rates across countries
-- Identify high-growth and underserved markets
-- Explore regional disparities in digital access
-- Derive insights relevant to data center and cloud infrastructure demand
+---
 
 ## Tools & Technologies
-- SQL → data structuring and querying
-- Python (Pandas, Matplotlib) → data cleaning and analysis
-- Power BI → data visualization and dashboard creation
+- Python : Pandas, Matplotlib, Seaborn 
+- Power BI: data visualization and dashboard creation
+- Data Sources: Kaggle World Internet Usage Data
+      - Features: data on the percentage of the population using the internet, sourced from multiple organizations such as the World Bank (WB), International Telecommunication Union (ITU), and the CIA.
 
-## Key Analysis Areas
-# Market Saturation
-Identifying countries with high internet penetration, indicating mature digital markets.
-# Growth Opportunities
-Highlighting regions with low internet adoption, suggesting future demand for digital infrastructure.
-# Regional Comparison
-Comparing internet usage across regions to identify digital inequality and growth trends.
+---
 
 ## Key Insights
-Highly connected countries show signs of market maturity, where future investments may focus on optimization rather than expansion.
-Emerging markets, particularly in developing regions, exhibit strong growth potential for digital infrastructure and cloud services.
-Regional disparities in internet access highlight opportunities for infrastructure investment and policy development.
+Digital Divide: There is a clear gap between develped and developing nations, where developed regions have an internet usage rate exceeding 80-90%. While, in contrast, several developing regions exhibit significantly lower peneration levels, such as below 10%
+Growth Opportunities: Emerging markets, particularly in developing regions offers strong growth potential for investment in digital infrastructure.
+Trends: Global internet adoption is increasing steadily, reflecting expansion in digital connectivity.
 
-## Dashboard (Power BI)
+--- 
+
+---
+## Python Analysis 
+1. # Data Cleaning ([01_data_cleaning.ipynb]())
+   - Cleaned data by removing unnecessary columns, null values and inconsistencies across sources (WB, ITU, CIA). 
+   - Created a column avg_internet_rate as the average of rate_wb and rate_itu for consistency.
+   - Created a column 'latest year' as different years are recorded across year_wb and year_itu.
+
+2. # Data Analysis ([02_data_analysis.ipynb]())
+   - Provided summary statistics to highlight global averages, minimums, and maximums, and also to identify digital growth across regions
+   - ![Histogram](images/internet_across_countries_usage_distribution.png)
+
+        - Shows distribution of internet usage rates across countries.
+   - ![Histplot with KDE](images/internet_penetration_rate_distribution.png)
+
+        - Smoothed distribution of rate_wb to understand data spread.
+
+---
+
+## Dashboard (Power BI) [Download Power BI Dashboard (.pbix)]()
 The interactive dashboard visualizes:
 
-Internet penetration by country
-Regional comparisons
-Growth potential indicators
+# World Map
+- Displays internet penetration by country (via gradient)
+- Highlights regions with saturated vs underserved markets
 
-## Methodology
-Cleaned and standardized multi-source data (World Bank, ITU, CIA)
-Handled missing values and ensured data consistency
-Created derived metrics such as average internet penetration and growth potential
-Conducted exploratory data analysis to identify trends and patterns
-Visualized insights for clear communication
+# Bar Charts
+- Top and Bottom 15 countries by internet penetratin
+- Helps quickly identify mature and emerging markets
 
-## Future Improvements
-Incorporate GDP and population data for deeper correlation analysis
-Expand analysis to include cloud adoption and AI workload trends
-Enhance dashboard interactivity with additional filters and metrics
+# Line graph
+- Displays average global internet penetration over time
+- Higlights trends in adoption and the digital divide between countries
+- *Insight Gained*: The average global internet penetration has fluctuated over the years, with a low point around 2020 (~32%) and a recovery to ~88% by 2023. This trend highlights that data coverage varies across years, but overall, internet adoption has been steadily increasing, reflecting growth in digital connectivity worldwide. While there are a sharp drop, this is likely reflected on data availability, instead of an actual decline. 
 
-## About This Project
-This project was developed as part of a data analytics portfolio to demonstrate:
+--- 
+# Dashboard Preview
+![Power BI Dashboard](images/world_internet_usage_analysis_powerbi.png)
 
-data cleaning and preparation
-analytical thinking
-business-oriented insight generation
-data storytelling
+
+
