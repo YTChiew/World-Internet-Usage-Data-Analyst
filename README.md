@@ -24,7 +24,7 @@ Trends: Global internet adoption is increasing steadily, reflecting expansion in
 
 ---
 ## Python Analysis 
-1. # Data Cleaning ([01_data_cleaning.ipynb]())
+1. # Data Cleaning ([01_data_cleaning.ipynb](https://github.com/YTChiew/World-Internet-Usage-Data-Analyst/blob/main/01_data_cleaning.ipynb))
    - Cleaned data by removing unnecessary columns, null values and inconsistencies across sources (WB, ITU, CIA). 
    - Created a column avg_internet_rate as the average of rate_wb and rate_itu for consistency.
    - Created a column 'latest year' as different years are recorded across year_wb and year_itu.
