@@ -29,7 +29,7 @@ Trends: Global internet adoption is increasing steadily, reflecting expansion in
    - Created a column avg_internet_rate as the average of rate_wb and rate_itu for consistency.
    - Created a column 'latest year' as different years are recorded across year_wb and year_itu.
 
-2. # Data Analysis ([02_data_analysis.ipynb]())
+2. # Data Analysis ([02_data_analysis.ipynb](https://github.com/YTChiew/World-Internet-Usage-Data-Analyst/blob/main/02_analysis.ipynb))
    - Provided summary statistics to highlight global averages, minimums, and maximums, and also to identify digital growth across regions
    - ![Histogram](images/internet_across_countries_usage_distribution.png)
 
