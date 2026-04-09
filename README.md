@@ -24,12 +24,12 @@ As internet penetration increases, so does the need for scalable digital infrast
 
 ---
 ## Python Analysis 
-1. # Data Cleaning ([01_data_cleaning.ipynb](https://github.com/YTChiew/World-Internet-Usage-Data-Analyst/blob/main/01_data_cleaning.ipynb))
+1. ## Data Cleaning ([01_data_cleaning.ipynb](https://github.com/YTChiew/World-Internet-Usage-Data-Analyst/blob/main/01_data_cleaning.ipynb))
    - Cleaned data by removing unnecessary columns, null values and inconsistencies across sources (WB, ITU, CIA). 
    - Created a column avg_internet_rate as the average of rate_wb and rate_itu for consistency.
    - Created a column 'latest year' as different years are recorded across year_wb and year_itu.
 
-2. # Data Analysis ([02_data_analysis.ipynb](https://github.com/YTChiew/World-Internet-Usage-Data-Analyst/blob/main/02_analysis.ipynb))
+2. ## Data Analysis ([02_data_analysis.ipynb](https://github.com/YTChiew/World-Internet-Usage-Data-Analyst/blob/main/02_analysis.ipynb))
    - Provided summary statistics to highlight global averages, minimums, and maximums, and also to identify digital growth across regions
    - ![Histogram](images/internet_across_countries_usage_distribution.png)
 
@@ -43,15 +43,15 @@ As internet penetration increases, so does the need for scalable digital infrast
 ## Dashboard (Power BI) [Download Power BI Dashboard (world_internet_usage_analyst.pbix)](https://github.com/YTChiew/World-Internet-Usage-Data-Analyst/blob/main/world-internet-usage-analyst.pbix)
 The interactive dashboard visualizes:
 
-# World Map
+## World Map
 - Displays internet penetration by country (via gradient)
 - Highlights regions with saturated vs underserved markets
 
-# Bar Charts
+## Bar Charts
 - Top and Bottom 15 countries by internet penetratin
 - Helps quickly identify mature and emerging markets
 
-# Line graph
+## Line graph
 - Displays average global internet penetration over time
 - Higlights trends in adoption and the digital divide between countries
 - *Insight Gained*: The average global internet penetration has fluctuated over the years, with a low point around 2020 (~32%) and a recovery to ~88% by 2023. This trend highlights that data coverage varies across years, but overall, internet adoption has been steadily increasing, reflecting growth in digital connectivity worldwide. While there are a sharp drop, this is likely reflected on data availability, instead of an actual decline. 
