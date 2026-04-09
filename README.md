@@ -16,9 +16,9 @@ As internet penetration increases, so does the need for scalable digital infrast
 ---
 
 ## Key Insights
-Digital Divide: There is a clear gap between develped and developing nations, where developed regions have an internet usage rate exceeding 80-90%. While, in contrast, several developing regions exhibit significantly lower peneration levels, such as below 10%
-Growth Opportunities: Emerging markets, particularly in developing regions offers strong growth potential for investment in digital infrastructure.
-Trends: Global internet adoption is increasing steadily, reflecting expansion in digital connectivity.
+- Digital Divide: There is a clear gap between develped and developing nations, where developed regions have an internet usage rate exceeding 80-90%. While, in contrast, several developing regions exhibit significantly lower peneration levels, such as below 10%
+- Growth Opportunities: Emerging markets, particularly in developing regions offers strong growth potential for investment in digital infrastructure.
+- Trends: Global internet adoption is increasing steadily, reflecting expansion in digital connectivity.
 
 --- 
 
