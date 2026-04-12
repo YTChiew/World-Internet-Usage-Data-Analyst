@@ -11,7 +11,7 @@ As internet penetration increases, so does the need for scalable digital infrast
 - Python : Pandas, Matplotlib, Seaborn 
 - Power BI: data visualization and dashboard creation
 - Data Sources: Kaggle World Internet Usage Data
-      - Features: data on the percentage of the population using the internet, sourced from multiple organizations such as the World Bank (WB), International Telecommunication Union (ITU), and the CIA.
+      -- Features: data on the percentage of the population using the internet, sourced from multiple organizations such as the World Bank (WB), International Telecommunication Union (ITU), and the CIA.
 
 ---
 
